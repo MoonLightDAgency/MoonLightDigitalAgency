@@ -2492,6 +2492,13 @@ button {
     color: #fff;
     margin-bottom: 20px;
 }
+
+li.twolist::marker{
+    color: #5956E9;
+}
+
+
+
 .testimonial-area-v1 .testimonial-item .testimonial-content h3{
     font-size: 25px;
     line-height: 30px;
