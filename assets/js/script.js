@@ -7,7 +7,24 @@ Version:        1.0
 Last change:    00/00/00 
 -------------------------------------------------------------------------------- */
 (function() {
-
+	setTimeout(() => {
+		function removeElfsightWatermark() {
+			// Select the watermark element using a query that matches your watermark
+			const watermark = document.querySelector('a[href*="elfsight.com"]');
+	
+			if (watermark) {
+				// Hide or remove the watermark
+				watermark.style.display = 'none'; // This hides it
+				// watermark.remove(); // This would remove it entirely
+	
+				// Stop checking after the watermark has been found and hidden/removed
+				clearInterval(intervalId);
+			}
+		}
+	
+		// Set an interval and store its ID
+		let intervalId = setInterval(removeElfsightWatermark, 1000); // Checks every 1 second
+	}, 1); 
 	"use strict";
 
 	var OriXy = {
