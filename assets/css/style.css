@@ -1706,15 +1706,8 @@ select:visited {
   border: 2px solid #FFFFFF;
 }
 
-.ori-slider-wrap-1 .slick-dots {
-  top: 55%;
-  bottom: 0;
-  left: auto;
-  width: auto;
-  right: 100px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
+
+
 .ori-slider-wrap-1 .slick-dots li {
   width: 70px;
   height: 70px;
